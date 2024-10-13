@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display"></h1>
+
+      <section class="guess_numbers d-none">
+        <h2 class="text-center mt-5">What numbers do you remember?</h2>
+        <p class="text-center mt-5">The order doesn't matter!</p>
+
+        <form>
+          <div class="mb-3 mt-5">
+            <label for="numb_1" class="form-label">Number 1</label>
+            <input
+              type="number"
+              class="form-control"
+              name="numb_1"
+              id="numb_1"
+              aria-describedby="helpId"
+              placeholder=""
+            />
+            <small id="helpId" class="form-text text-muted"
+              >Inserisci numero</small
+            >
+          </div>
+
+          <div class="mb-3 mt-5">
+            <label for="numb_2" class="form-label">Number 2</label>
+            <input
+              type="number"
+              class="form-control"
+              name="numb_2"
+              id="numb_2"
+              aria-describedby="helpId"
+              placeholder=""
+            />
+            <small id="helpId" class="form-text text-muted"
+              >Inserisci numero</small
+            >
+          </div>
+
+          <div class="mb-3 mt-5">
+            <label for="numb_1" class="form-label">Number 3</label>
+            <input
+              type="number"
+              class="form-control"
+              name="numb_3"
+              id="numb_3"
+              aria-describedby="helpId"
+              placeholder=""
+            />
+            <small id="helpId" class="form-text text-muted"
+              >Inserisci numero</small
+            >
+          </div>
+
+          <div class="mb-3 mt-5">
+            <label for="numb_1" class="form-label">Number 4</label>
+            <input
+              type="number"
+              class="form-control"
+              name="numb_4"
+              id="numb_4"
+              aria-describedby="helpId"
+              placeholder=""
+            />
+            <small id="helpId" class="form-text text-muted"
+              >Inserisci numero</small
+            >
+          </div>
+
+          <div class="mb-5 mt-5">
+            <label for="numb_1" class="form-label">Number 5</label>
+            <input
+              type="number"
+              class="form-control"
+              name="numb_5"
+              id="numb_5"
+              aria-describedby="helpId"
+              placeholder=""
+            />
+            <small id="helpId" class="form-text text-muted"
+              >Inserisci numero</small
+            >
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary mb-5">Invia</button>
+          </div>
+        </form>
+        
+      </section>
+
+    </div>
+
+    <script src="./index.js"></script>
+
+  </body>
+</html>
